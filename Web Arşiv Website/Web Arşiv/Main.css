@@ -1,0 +1,242 @@
+header {
+    color: white;
+    box-shadow: 0 0 5px 0 black;
+    position: relative;
+  }
+  .top-t {
+    background-color: #127f6f;
+    padding: 0.5rem 0 0.5rem 0.2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .top-t ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+  }
+  .top-t ul li {
+    padding: 0 0.5rem;
+  }
+  .top-t a {
+    text-decoration: none;
+    color: white;
+  }
+  .top-t ul li i:hover {
+    color: black;
+  }
+  .top {
+    background-color: #f4f4f4;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    align-items: center;
+    color: black;
+    margin-left: 2rem;
+  }
+  .header-right {
+    padding-top: 2.5rem;
+  }
+  .header-right ul {
+    display: flex;
+  }
+  .header-right ul li {
+    list-style-type: none;
+    margin-right: 3rem;
+    font-size: 1.1rem;
+  }
+  .header-right ul li:hover {
+    cursor: pointer;
+  }
+  .header-right ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  #get {
+    display: none;
+    position: absolute;
+    background-color: #f4f4f4;
+    padding: 0;
+    margin-top: 0.1rem;
+    top: 6.8rem;
+  }
+  #get li {
+    margin: 0;
+    padding: 1rem 2.4rem 1rem 1rem;
+  }
+  #get li:hover {
+    background-color: #127f6f;
+  }
+  #get li:hover a {
+    color: white;
+  }
+  .container {
+      width: 80%;
+      margin: 1rem auto;
+      display: flex;
+  }
+  .icerik{
+      margin: auto 0;
+  }
+  .icerik p {
+    text-align: justify; line-height: 1.5rem;
+  }
+  .container2{
+      width: 70%;
+      margin: 1rem auto;
+  }
+  .kategori {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2rem;
+  }
+  .kategori-item {
+       background-color:#127f6f ;
+       width: 20%;
+       text-align: center;
+       padding:1rem 0;
+       border-radius: 5px;
+       color: white;
+  }
+  .kategori-item img {
+      border-radius: 100%;
+      margin-bottom: 10px;
+  }
+  .kategori-item p i {
+      color: white;
+      font-size: 20px;
+  }
+  .kategori i {
+      margin: auto 0;
+      font-size: 30px;
+      cursor: pointer;
+      color: #127f6f;
+  }
+
+  .container3 {
+      width: 100%;
+      background-color:#127f6f ;
+      padding: 0.5rem 0 2rem 0;
+      color: white;
+      margin-top: 3rem;
+
+  }
+  .items{
+      width: 80%;
+      display: flex;
+      justify-content: left;
+      margin: 0 auto;
+      flex-wrap: wrap;
+  }
+  .item {
+      padding: 1rem;
+      background-color: #f4f4f4;
+      width: 31%;
+      border-radius: 5px;
+      font-size: 17px;
+      color: black;
+      line-height: 1.7rem;
+      margin:1rem 1rem 0 1rem;
+  }
+  .item img {
+      border-radius: 5px;
+      margin: 0.5rem 0;
+  }
+  .item-content {
+      margin-bottom:1rem;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+  }
+  .item-content:hover{
+    white-space:normal;
+  }
+  footer {
+      background-color: #f4f4f4;
+      width: 100%;
+      padding: 1.5rem 0 0.5rem 0;
+      text-align: center; 
+      line-height: 2rem;
+  }
+  .footer-bottom {
+      display: inline-block;
+      margin: 0.5rem auto;
+  }
+  .footer-bottom ul {
+      display: flex;
+  }
+  .footer-bottom ul li {
+      list-style-type: none;
+      margin: 0 0.5rem;
+  }
+  .footer-bottom ul li a {
+      text-decoration: none;
+      color: black;
+  }
+  .footer-bottom ul li a i:hover {
+      color:#127f6f ;
+  }
+
+  /*arsiv.html css kodu*/
+  .container4 {
+      width: 80%;
+      margin: 2rem auto;
+      text-align: justify;
+  }
+  .container4 ul {
+      list-style-type: none;
+      margin: 0.5rem 0;
+  }
+  /*kgris.html css kodu*/
+  .kgiris {
+ 
+      width: 30%;
+      margin: 7.5rem auto;
+      padding: 2rem;
+      border-radius:10px;
+      border: 1px solid black;
+  }
+  .kgiris p {
+      color: gray;
+      margin-bottom: 1rem;
+  }
+  .kkayit{
+      display: none;
+      width: 30%;
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius:10px;
+      border: 1px solid black;
+  }
+  .kkayit p {
+      color: gray;
+  }
+  /*hakkimizda.html css kodu*/
+ .container5 {
+    width: 80%;
+    margin: 2rem auto;
+    text-align: justify;
+    line-height: 1.5rem;
+ }
+ .container5 ul {
+     margin: 1rem 0 0 1.2rem;
+ }
+ /*iletisim.html css kodu*/
+ .container6 {
+    width: 80%;
+    margin: 2rem auto;
+ }
+ .container6 p {
+     color: gray;
+ }
+ .container7 {
+     width: 100%;
+     padding: 1rem;
+ }
+ .container7 .items {
+     width: 100%;
+ }
+ .container7 .items .item {
+     width: 23.2%;
+ }

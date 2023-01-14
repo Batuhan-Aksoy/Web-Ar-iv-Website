@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kullanıcı Girişi</title>
+    <!--CSS dosyaları-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="global.css" rel="stylesheet">
+    <link href="Main.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="top-t">
+            <ul>
+                <li>Bizi Takip Et</li>
+                <li title="İnstagram"><a href="#"><i class="fab fa-instagram"></i></a></i></li>
+                <li title="Whatsapp"><a href="#"><i class="fab fa-whatsapp"></i></a></i></li>
+                <li title="Twitter"><a href="#"><i class="fab fa-twitter"></i></a></i></li>
+                <li title="Facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></i></li>
+            </ul>
+        </div>
+        
+        <div class="top">
+            <div class="logo">
+                <a href="anasayfa.php"><img src="images/logo-4.jpg" title="logo" alt="logo" width="100px" height="100px" style="border-radius: 100%;"></a>
+            </div>
+            <div class="header-right">
+                <ul>
+                    <li><a href="anasayfa.php">Anasayfa</a></li>
+                    <li onmousemove="get();" onmouseout="unget();">
+                     <ul id="get">
+                         <li><a href="anonim-arsivler.php">Anonim Arşivler</a></li>
+                         <li><a href="kullanici-arsivler.php">Kullanıcı Bazlı Arşivler</a></li>
+                     </ul><a href="arsiv.html">Arşivler</a>
+                    </li>
+                    <li><a href="kgiris.html">Kullanıcı Girişi</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+     <div class="kgiris">
+         <form action="giris.php" method="POST">
+             <h2 align="center">Kullanıcı Girişi</h2>
+           <label><strong>Kullanıcı Adı:</strong></label><br>
+           <input type="text" name="username" minlength="8" maxlength="20" class="input" required>
+           <p>Lütfen kullanıcı adınızı giriniz.</p>
+           <label><strong>Şifre:</strong></label><br>
+           <input type="password" name="pass" minlength="8" maxlength="20" class="input" required>
+           <p>Lütfen şifrenizi giriniz.</p>
+           <input type="submit" class="btn2" value="Giriş">
+           <input type="button" class="btn2" value="Kayıt Ol" onclick="kayit();">
+         </form>
+     </div>
+     <div class="kkayit">
+         <form action="kayit.php" method="POST">
+             <h2 align="center">Kullanıcı Kayıt</h2>
+             <label><strong>Kullanıcı Adı:</strong></label><br>
+             <input type="text" name="username" minlength="8" maxlength="20" class="input" required>
+             <p>Lütfen kullanıcı adınızı oluşturunuz.</p><br>
+             <label><strong>Şifre:</strong></label>
+             <input type="password" name="pass" minlength="8" maxlength="20" class="input" required>
+             <p>Lütfen Şifrenizi oluşturunuz.</p><br>
+             <label><strong>Email:</strong></label><br>
+             <input type="email" name="email"  maxlength="25" class="input" required>
+             <p>Lütfen E-mail adresinizi giriniz.</p><br>
+             <label><strong>Telefon Numarası:</strong></label><br>
+             <input type="tel" name="tel" minlength="11" maxlength="11" class="input" required>
+             <p>Lütfen Telefon numaranızı giriniz.</p><br>
+             <input type="submit" class="btn2" value="Kayıt Ol">
+             <input type="reset" class="btn2" value="Temizle">
+         </form>
+     </div>
+    <footer>
+        <p>Web Arşiv © - Tüm Hakları Saklıdır. Gizlilik, Kullanım ve Telif Hakları bildiriminde belirtilen kurallar çerçevesinde hizmet sunulmaktadır.</p>
+        <p>Şikayet Etmek veya Bize ulaşmak için <a href="iletisim.html">tıklayınız</a></p>
+        <div class="footer-bottom">
+        <ul>
+            <li>Bizi Takip Et</li>
+            <li title="İnstagram"><a href="#"><i class="fab fa-instagram"></i></a></i></li>
+            <li title="Whatsapp"><a href="#"><i class="fab fa-whatsapp"></i></a></i></li>
+            <li title="Twitter"><a href="#"><i class="fab fa-twitter"></i></a></i></li>
+            <li title="Facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></i></li>
+        </ul></div>
+     </footer>
+     <script src="Main.js"></script>
+</body>
+</html>
